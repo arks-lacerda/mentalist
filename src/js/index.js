@@ -65,11 +65,11 @@ function toggleScreen() {
 
 function numberIsGreaterOrLess() {
   if (input.value < randomNumber) {
-    alert('You missed! The number is bigger.')
+    alert('You missed! The number is bigger than ' + input.value)
   } else if (input.value == randomNumber) {
     toggleScreen()
   } else {
-    alert('You missed! The number is smaller')
+    alert('You missed! The number is smaller than ' + input.value)
   }
   console.log(randomNumber)
   console.log(input.value)
