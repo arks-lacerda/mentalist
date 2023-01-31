@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid; /* Tem ussar para utilizar o alinhamento abaixo */
+  margin: auto;
+  max-width: 120rem;
+  height: 100vh;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+}
+
+#logo img {
+  max-height: 3.5rem;
+}
+
+body, button, input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button:disabled {
+  background-color: #424447;
+}
+button:disabled:hover {
+  background-color: #424447;
+} 
+
+button {
+  width: 7rem;
+  height: 5rem;
+  background: #7879F1;
+  border-radius: 0px .4rem .4rem 0px;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .3s;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background: #5656c4;
+  transition: background .3s;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page {
+  margin: auto;
+  position: relative;
+  width: min(42.8rem, 90%);
+  height: fit-content;
+  padding: 4.8rem 6.4rem 6.4rem;
+  gap: 48px;
+  background-color: #FFF;
+  box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
+  border-radius: .6rem;
+  margin-top: -12rem;
+}
+
+.screenOne img {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  width: 15rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* ScreenOne */
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  margin-bottom: 1.6rem;
+  color: #34355B;
+}
+
+header p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: rgba(52, 53, 91, 0.8);
+  margin-bottom: 4.8rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main form {
+  display: flex;
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  width: 12rem;
+  height: 5rem;
+  background: #DCE2E9;
+  border-radius: .4rem 0px 0px .4rem;
+  text-align: center;
+
+
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+/* identical to box height */
+
+color: #34355B;
+}
+
+/*ScreenTwo */
+
+.screenTwo header h2 {
+  margin-bottom: 3.3rem;
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: #34355B;
+}
+
+.screenTwo button {
+  width: 16.6rem;
+  height: 5rem;
+  border-radius: .4rem;
+  padding: 1.6rem;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Google Preconnect-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Mentalist</title>
+</head>
+<body>
+  <div id="logo">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </div>
+  <div class="page">
+    <div class="screenOne">
+      <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Ilustra%C3%A7%C3%A3o-c%C3%A9rebro+1.png">
+      <header>
+          <h1>Mentalist</h1>
+          <p>Guess the number between 1 and 1000</p>
+      </header>
+      <main>
+          <form action="">
+              <input class="input" type="number" id="inputNumber">
+              <button class="button" id="btnTry">Try</button>
+          </form>
+      </main>
+    </div>
+
+    <div class="screenTwo hide">
+        <header>
+            <h2></h2>
+        </header>
+        <main>
+            <button id="btnReset">Play again</button>
+        </main>
+    </div>
+  </div>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
